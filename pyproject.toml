@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "twiiter-etl"
+version = "0.1.1"
+description = "Twiiter ETL Pipeline"
+authors = ["Hamza Ali"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
