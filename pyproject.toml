@@ -7,11 +7,12 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.13"
 pandas = "^2.2.2"
 tweepy = "^4.14.0"
 s3fs = "^2024.6.1"
 python-dotenv = "^1.0.1"
+apache-airflow = "^2.9.3"
 
 
 [build-system]
