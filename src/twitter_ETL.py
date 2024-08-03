@@ -37,10 +37,5 @@ def run_twitter_etl():
         
         tweets_list.append(refined_tweet)
 
-    print(tweets_list)
-
-
-run_twitter_etl()
-
-    # df = pd.DataFrame(list)
-    # df.to_csv('refined_tweets.csv')
+    df = pd.DataFrame(tweets_list)
+    df.to_csv('s3://twitter-etl-data/refined_tweets.csv')
